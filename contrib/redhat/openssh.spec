@@ -70,7 +70,7 @@
 %global rescue 0
 %{?build_rescue:%global rescue 1}
 
-# Turn off some stuff for resuce builds
+# Turn off some stuff for rescue builds
 %if %{rescue}
 %global kerberos5 0
 %endif
